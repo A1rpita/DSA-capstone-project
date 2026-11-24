@@ -1,0 +1,17 @@
+# Core algorithm demonstration (optional)
+
+The main application is app.py. It includes the graph, Dijkstra shortest-path function,
+greedy route scheduler, visualization, and metrics.
+
+To run the interactive dashboard:
+    streamlit run app.py
+
+Sample graph nodes:
+    Depot, A, B, C, D, E, F, G
+
+Sample delivery selection:
+    A, C, E, G
+
+Expected output:
+    A route sequence, total optimized distance, estimated time, route map,
+    leg-by-leg shortest paths, and performance comparison.
